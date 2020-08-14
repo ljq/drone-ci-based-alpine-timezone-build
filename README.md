@@ -4,6 +4,8 @@
 
 * drone ci based alpine os timezone(Asia/shanghai) build Dockerfile. Drone-CI( drone/drone,drone/agent )
 
+* Environment variable set: ```TZ=Asia/Shanghai```
+
 ```docker images```
 
 * golang:1.14-alpine
