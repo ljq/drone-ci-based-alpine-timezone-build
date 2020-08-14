@@ -4,8 +4,9 @@
 
 * Drone-CI 容器版本建立在alpine OS上，alpine对相关时区设置没有提供相对完整的支持(如**Asia/Shanghai**)，导致通过环境变量设置和文件挂载时区文件```/etc/localtime```设置无效的问题，这是一个比较简单的解决方案。
 
-* Drone-CI 基于alpine os时区(亚洲/上海)构建Dockerfile。Drone-CI( drone/drone,drone/agent)
+* Drone-CI 基于alpine os时区(亚洲/上海)构建Dockerfile。Drone-CI( drone/drone,drone/agent)。
 
+* 最简化修改。
 
 ```docker iamges```
 
