@@ -18,12 +18,19 @@ docker build --target drone-ssh -t appleboy/drone-ssh:timezone-asia --force-rm .
 echo "drone-email alpine add timezone .\n"
 docker build --target drone-email -t drillster/drone-email:timezone-asia --force-rm .
 
-echo "----- tools docker timezone ----"
+echo "--------- tools docker ---------"
 
 echo "golang:1.14-alpine add timezone .\n"
 docker build --target golang-tz -t appleboy/golang:timezone-asia --force-rm .
 
-echo "Dockerfile Multi Stage Finished. \n"
+
+echo "--------------- images <none> clear  -----------------\n"
+
+docker ps -a|grep "Exited" | awk '{print $1}' | xargs docker stop
+docker ps -a|grep "Exited" | awk '{print $1}' | xargs docker rm
+docker images|grep none|awk '{print $3}'|xargs docker rmi
+
+echo "---------- Dockerfile Multi Stage Finished. --------\n"
 
 echo "Docker Images List:"
 docker images -a
