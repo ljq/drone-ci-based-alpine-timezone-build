@@ -6,6 +6,8 @@
 
 * Drone-CI 基于alpine os时区(亚洲/上海)构建Dockerfile。Drone-CI( drone/drone,drone/agent)。
 
+* 环境变量设置: ```TZ=Asia/Shanghai```
+
 * 最简化修改。
 
 ```docker iamges```
