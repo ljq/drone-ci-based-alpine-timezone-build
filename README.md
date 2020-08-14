@@ -5,6 +5,7 @@ drone ci based alpine os timezone(Asia/shanghai) build Dockerfile. Drone-CI( dro
 
 * Dockerfile Multi Stage build.
 * Docker version >=17.05
+* It is recommended that you specify a mirror tag version number build
 
 ### Contact
 * site: wdft.com
