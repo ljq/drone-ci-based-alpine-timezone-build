@@ -3,6 +3,12 @@
 
 * drone ci based alpine os timezone(Asia/shanghai) build Dockerfile. Drone-CI( drone/drone,drone/agent )
 
+```docker images```
+|REPOSITORY       |       TAG          |
+|:---------------:|:------------------:|
+|drone/agent      |     timezone-asia  |      
+|drone/drone      |     timezone-asia  |
+
 # Matters needing attention
 
 * Dockerfile Multi Stage build.
