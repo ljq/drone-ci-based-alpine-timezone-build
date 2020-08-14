@@ -10,12 +10,18 @@
 
 ```docker iamges```
 
+* golang:1.14-alpine
+
 |REPOSITORY       |       TAG          |
 |:---------------:|:------------------:|
 |drone/agent      |     timezone-asia  |      
 |drone/drone      |     timezone-asia  |
+|appleboy/drone-scp      |     timezone-asia  |
+|appleboy/drone-ssh      |     timezone-asia  |
+|golang      |     timezone-asia  |
 
-注意事项
+
+### 注意事项
 
 * Dockerfile多级构建。
 * Docker版本>=17.05
