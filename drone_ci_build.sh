@@ -15,6 +15,9 @@ docker build --target drone-scp -t appleboy/drone-scp:timezone-asia --force-rm .
 echo "drone-ssh alpine add timezone .\n"
 docker build --target drone-ssh -t appleboy/drone-ssh:timezone-asia --force-rm .
 
+echo "drone-email alpine add timezone .\n"
+docker build --target drone-email -t drillster/drone-email:timezone-asia --force-rm .
+
 echo "----- tools docker timezone ----"
 
 echo "golang:1.14-alpine add timezone .\n"
