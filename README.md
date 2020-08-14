@@ -1,5 +1,7 @@
 # Drone-CI based alpine Timezone Build
-drone ci based alpine os timezone(Asia/shanghai) build Dockerfile. Drone-CI( drone/drone,drone/agent )
+* Drone-CI is officially built on alpine OS,Alpine does not provide relatively complete support for the relevant time zone Settings(such as Asia/Shanghai), which is a simpler solution.
+
+* drone ci based alpine os timezone(Asia/shanghai) build Dockerfile. Drone-CI( drone/drone,drone/agent )
 
 # Matters needing attention
 
